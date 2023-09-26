@@ -39,3 +39,22 @@ console.log(age)
 let result = 1+2*(3+4);
 
 console.log(result);
+
+//How to accept user input
+
+// EASY WAY WITH A WINDOW PROMPT
+/*let username = window.prompt("What is your name?");
+console.log(username);*/
+
+
+//DIFFICULT WAY "THE HTML TEXTBOX"
+/*let username;
+
+document.getElementById("myButton").onclick=function(){
+
+    username = document.getElementById("myText").value;
+    console.log(username);
+
+    document.getElementById("myLable").innerHTML = username;
+}
+*/
